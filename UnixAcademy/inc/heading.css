@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+    background-color: rgb(27, 55, 92);
+    overflow: hidden;
+    display: flex;
+} 
+
+.unix {
+    color: rgb(199, 49, 49);
+}
+
+h1 {
+    color: white;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.links {
+    line-height: 70px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color:rgb(13, 32, 56);
+}
