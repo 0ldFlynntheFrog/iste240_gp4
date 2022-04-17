@@ -9,6 +9,7 @@ header  {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    /* I put margin-bottom instead of all of the <br> tags */
     margin-bottom: 4em;
 } 
 
