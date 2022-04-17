@@ -8,7 +8,8 @@ header  {
     background-color: rgb(27, 55, 92);
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    /* Do you prefer the centered nav menu or not? */
+    justify-content: center; 
     /* I put margin-bottom instead of all of the <br> tags */
     margin-bottom: 4em;
 } 
