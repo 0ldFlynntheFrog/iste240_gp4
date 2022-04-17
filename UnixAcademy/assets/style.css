@@ -1,3 +1,10 @@
+/* I removed all of the css files because it was getting hard to keep track of all the
+   different css files and added the code to one singular file. If you prefer having them all
+   seperate that's ok but if you can you put them in their own folder. I added where each of the css 
+   styling started and ended from their respective files.
+ */
+
+
 /* Start of css styling from heading.css */
 * {
     margin: 0px;
