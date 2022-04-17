@@ -1,5 +1,5 @@
 <?php
-include("inc/heading.php");
+include("assets/inc/heading.php");
 ?>
 
 	<link href = "quizs.css" rel = 'stylesheet' >

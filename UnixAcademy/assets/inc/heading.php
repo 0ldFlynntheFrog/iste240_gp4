@@ -4,26 +4,20 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Unix Academy</title>
-	<link href = "heading.css" rel = 'stylesheet' >
+	<link href = "assets/style.css" rel = 'stylesheet' >
 </head>
 <body>
 
 	<!-- Heading HTML below -->
-
-	<div class = "heading">
-		<h1 class = "unix" > &nbsp; Unix</h1>
-		<h1>Academy</h1>
+	<!-- Changed from div heading to just header -->
+	<header>
+		<h1><span style = "color: rgb(199, 49, 49)">Unix</span>&nbsp; Academy</h1>
 
 		<div class = "links">
 			<a href = "index.php">Homepage</a>
 			<a href = "chapters.php">Chapters</a>
-			<a href = "quizs.php">Quizs</a>
+			<a href = "quizs.php">Quizzes</a>
 		</div>
-	</div>
-
-	<br>
-	<br>
-	<br>
-	<br>
+	</header>
 
 	<!-- end of heading -->

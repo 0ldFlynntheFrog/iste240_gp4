@@ -1,5 +1,5 @@
 <?php
-include("inc/heading.php");
+include("assets/inc/heading.php");
 ?>
 
 <link href = "index.css" rel = 'stylesheet' >
@@ -14,21 +14,13 @@ include("inc/heading.php");
 		 Although the program is multitasking it wasnt meant for it to be like that at the begining.
 	</p>
 
-	<br>
-	<br>
 
 	<a class = "learn" href = "" >Learn More</a>
-
-	<br>
-	<br>
 
 	</div>
 
 	<!-- end of content -->
 
-	<br>
-	<br>
-	
 	<!-- Container HTML below -->
 
 	<div class = "container">
