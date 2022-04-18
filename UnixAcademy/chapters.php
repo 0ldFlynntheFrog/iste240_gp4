@@ -1,8 +1,8 @@
 <?php
-include("inc/heading.php");
+include("assets/inc/heading.php");
 ?>
 
-	<link href = "chapters.css" rel = 'stylesheet' >
+	<link href = "assets/style.css" rel = 'stylesheet' >
 
 	<!-- Side Bar HTML below -->
 
