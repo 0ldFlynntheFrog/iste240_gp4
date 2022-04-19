@@ -20,7 +20,7 @@ include("assets/inc/heading.php");
 
     <!-- Main HTML Below -->
     <div class = "main" >
-       <!-- content for each chapter will go here -->
+    <!-- content for each chapter will go here -->
     </div>
     <!-- end of Main HTML -->
 
