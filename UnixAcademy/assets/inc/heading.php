@@ -16,7 +16,7 @@
 		<div class = "links">
 			<a href = "index.php">Homepage</a>
 			<a href = "chapters.php">Chapters</a>
-			<a href = "quizs.php">Quizzes</a>
+			<a href = "quizzes.php">Quizzes</a>
 		</div>
 	</header>
 

@@ -1,9 +1,6 @@
 <?php
 include("assets/inc/heading.php");
 ?>
-
-<link href = "index.css" rel = 'stylesheet' >
-
 	<!-- Content HTML below -->
 
 	<div class = "content">
@@ -11,7 +8,7 @@ include("assets/inc/heading.php");
 	<br>
 	<p>Unix is an Operating System that can be used to help the user interact wth the computer.
 		 Unix is also a multitasking program and was created in 1971. 
-		 Although the program is multitasking it wasnt meant for it to be like that at the begining.
+		 Although the program is multitasking it wasnt meant for it to be like that at the beginning.
 	</p>
 
 
