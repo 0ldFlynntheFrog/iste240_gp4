@@ -72,8 +72,8 @@ a:hover {
     padding: 20px;
 }
 
-p {
-    color:  white;
+.info {
+    color:  white;  
     font-size: 30px;
     margin-right: 50%;
     margin-bottom: 1em;
@@ -90,11 +90,13 @@ p {
 /* End of css styling from index.css */
 
 /* Chapters.css */
-.sidebar a {
+
+/* make buttons stylized; but currently is not working */
+button {
     color: black;
 }
 
-.sidebar a:hover {
+button:hover {
     background-color:rgb(127, 131, 131);
 }
 
@@ -108,4 +110,13 @@ p {
 .chapters {
     color: black;
     font-size: 20px;
+}
+
+.paragraph {
+    color: black;
+    background-color: rgb(182, 189, 189);
+}
+
+.main {
+    background-color:rgb(13, 32, 56);
 }
