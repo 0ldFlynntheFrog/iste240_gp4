@@ -10,7 +10,8 @@ include("assets/inc/heading.php");
 
     <div class = "sidebar">
         <!-- heading for side bar will also be a button -->
-        <button type="button" onclick="UnixChapters ()"> Unix Chapters</button>
+        <h4>Table of Contents</h4>
+        <button type="button" onclick="UnixChapters ()">About Unix</button>
 
         <br>
         
@@ -35,6 +36,23 @@ include("assets/inc/heading.php");
             color: black;
             font-size: 20px;
         }
+
+        button {
+            background-color: rgb(182, 189, 189);
+            border: none;
+            color: black;
+            padding: 30px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(128, 124, 124);
+        }
+
     </style>
 
 	<!-- end of Side Bar -->
@@ -43,7 +61,8 @@ include("assets/inc/heading.php");
 
     <!-- code changes with javascript when chapter buttons are clicked -->
     <div class = "main"> 
-     <p class = "paragraph" id="paragraph" >General Unix Information goes here</p>
+        <h2 class = "name" id = "name" >About Unix</h2>
+        <p class = "paragraph" id = "paragraph" >General Unix Information goes here</p>
     </div>
     <!-- end of Main HTML -->
 
