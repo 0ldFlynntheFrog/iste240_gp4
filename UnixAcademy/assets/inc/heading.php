@@ -6,7 +6,7 @@
 	<title>Unix Academy</title>
 	<link href = "assets/style.css" rel = 'stylesheet' >
 </head>
-<body>
+<body <?php if ($page == "Chapters") {echo "onload='UnixChapters();'";} ?> >
 
 	<!-- Heading HTML below -->
 	<!-- Changed from div heading to just header -->

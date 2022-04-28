@@ -1,9 +1,11 @@
 function UnixChapters () {
-    var heading = document.getElementById("name")
-    heading.innerHTML = "About Unix"
+    var headings = document.getElementsByClassName("name");
+    headings[0].innerHTML = "What is Unix?";
 
-    var text = document.getElementById("paragraph")
-    text.innerHTML = "General Unix Information goes here"
+    var paragraphs = document.getElementsByClassName("paragraph");
+    paragraphs[0].innerHTML = "Unix is the meat of a computer's software, withoutit, our computer is worthless." 
+    + "In short, Unix is a collection of operating systems that brings substance to our computer."
+    + "Different types of operating systems include:";
 }
 
 function Chapter1 () {

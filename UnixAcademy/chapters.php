@@ -1,4 +1,5 @@
 <?php
+$page = "Chapters";
 include("assets/inc/heading.php");
 ?>
 
@@ -35,6 +36,7 @@ include("assets/inc/heading.php");
         .paragraph {
             color: black;
             font-size: 20px;
+            margin-bottom: 20px;
         }
 
         button {
@@ -53,6 +55,16 @@ include("assets/inc/heading.php");
             background-color: rgb(128, 124, 124);
         }
 
+        ul{
+            margin-top: 10px;
+            margin-left: 2em;
+            margin-bottom: 15px;
+        }
+
+        .name {
+            padding-bottom: 10px;
+        }
+
     </style>
 
 	<!-- end of Side Bar -->
@@ -61,8 +73,40 @@ include("assets/inc/heading.php");
 
     <!-- code changes with javascript when chapter buttons are clicked -->
     <div class = "main"> 
-        <h2 class = "name" id = "name" >About Unix</h2>
-        <p class = "paragraph" id = "paragraph" >General Unix Information goes here</p>
+        <h2 class = "name" id = "name"></h2>
+        <p class = "paragraph">
+            <ul>
+                <li>Windows</li>
+                <li>macOS</li>
+                <li>Linux</li>
+                <li>Chrome OS</li>
+                <li>Android</li>
+                <li>iOS</li>
+            </ul>
+        </p>
+        <h2 class = "name" id = "name" >Who Created Unix?</h2>
+        <p class="paragraph" id="paragraph">
+        In 1969, Unix was developed at AT&T Bell Labs by Ken Thompson, Dennis Ritchie, 
+        Douglas Mcilroy, Joseph Ossanna. Originally collaborating with researchers from 
+        MIT and General Electrics on an operating system named Multics, the godfathers of 
+        Unix dropped out of the project due to its complexity and developed a simpler version.
+        </p>
+        <p class="paragraph" id="paragraph">
+        As the popularity of Unix increased, companies began emulating Unix and making their 
+        own Unix-like operating systems. Most likely, the operating system you're using now is based on Linux.
+        </p>
+        <h2 class="name" id="name">The Command Line Interface/Terminal</h2>
+        <p class="paragraph" id="paragraph">
+        The main importance of UNIX is the use of UNIX commands 
+        that we can use to navigate our way around our computer.
+        </p>
+        <p class="paragraph" id="paragraph">
+        Command prompts are used by many operating systems that serve as the home for writing UNIX commands 
+        on our computer. The command prompt is often called a “terminal” or "command line interface" (CLI).
+        </p>
+        <p class="paragraph" id="paragraph">
+        In Chapter 1, we will overview some basic commands available for use in the command prompt.
+        </p>
     </div>
     <!-- end of Main HTML -->
 
