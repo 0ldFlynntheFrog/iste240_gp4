@@ -1,4 +1,5 @@
 <?php
+$page = "home";
 include("assets/inc/heading.php");
 ?>
 	<!-- Content HTML below -->
