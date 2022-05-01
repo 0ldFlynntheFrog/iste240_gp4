@@ -13,11 +13,28 @@
 	<header>
 		<h1><span style = "color: rgb(199, 49, 49)">Unix</span>&nbsp;Academy</h1>
 
-		<div class = "links">
+		<nav>
 			<a href = "index.php">Homepage</a>
-			<a href = "chapters.php">Chapters</a>
-			<a href = "quizzes.php">Quizzes</a>
-		</div>
+      <div class = "dropdown">
+        <button class="dropbtn">Chapters</button>
+        <div class="dropdown-content">
+          <a href="chapters.php">What is Unix?</a>
+          <a href="">The CLI/Terminal</a>
+          <a href="">Chapter 3</a>
+          <a href="">Chapter 4</a>
+          <a href="">Chapter 5</a>
+        </div>
+      </div>
+      <div class = "dropdown">
+        <button class="dropbtn">Quizzes</button>
+        <div class="dropdown-content">
+          <a href="">Quiz 1</a>
+          <a href="">Quiz 2</a>
+          <a href="">Quiz 3</a>
+          <a href="">Quiz 4</a>
+        </div>
+      </div>	
+		<nav>
 	</header>
 
 	<!-- end of heading -->
