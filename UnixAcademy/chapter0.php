@@ -1,24 +1,16 @@
 <?php
     $page = "Chapter 0";
     include("assets/inc/heading.php");
+    include("assets/inc/sidebar.php");
 ?>
 
-<div class="sidebar">
-    <h4>Table of Contents</h4>
-    <button type="button">About Unix</button>
-    <br>
-    <button type="button">Chapter 1</button>
-    <button type="button">Chapter 2</button>
-    <button type="button">Chapter 3</button>
-    <button type="button">Chapter 4</button>
-</div>
+    <!-- Main HTML Below -->
 
-<main class="class-content">
-    <h2>What is Unix</h2>
-    <p>
-        Unix is the meat of a computer's software, without it, our computer is worthless. 
-        In short, Unix is a collection of operating systems that brings substance to our computer. 
-        Different types of operating systems include:
+<main class="chapter-content"> 
+    <h2>Who Created Unix?</h2>
+    <p>Unix is the meat of a computer's software, without it, our computer is worthless. 
+    In short, Unix is a collection of operating systems that brings substance to our computer. 
+    Different types of operating systems include:
         <ul>
             <li>Windows</li>
             <li>macOS</li>
@@ -47,7 +39,7 @@
         Command prompts are used by many operating systems that serve as the home for writing UNIX commands on our computer. 
         The command prompt is often called a “terminal” or “command line interface” (CLI).
     </p>
-    <p>In Chapter 1, we will overview some basic commands available for use in the command prompt.</p>
+    <p>In Chapter 1, we will overview some basic commands available for use in the command prompt.</p>   
 </main>
 
 

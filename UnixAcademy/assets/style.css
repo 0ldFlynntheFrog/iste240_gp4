@@ -1,11 +1,3 @@
-/* I removed all of the css files because it was getting hard to keep track of all the
-   different css files and added the code to one singular file. If you prefer having them all
-   seperate that's ok but if you can you put them in their own folder. I added where each of the css 
-   styling started and ended from their respective files.
- */
-
-
-/* Start of css styling from heading.css */
 * {
     margin: 0px;
     padding: 0px;
@@ -15,8 +7,11 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-html, header  { 
-    background-color: rgb(27, 55, 92);
+html {
+  background-color: rgb(27, 55, 92);
+}
+
+header{ 
     overflow: hidden;
     display: flex;
     /* Do you prefer the centered nav menu or not? */
@@ -39,7 +34,7 @@ h1 {
   display: inline-block;
 }
 
-a {
+nav a {
     color: white;
     text-decoration: none;
     padding: 25px;
@@ -47,7 +42,7 @@ a {
     line-height: 70px;
 }
 
-a:hover, .dropdown:hover .dropbtn {
+nav a:hover, .dropdown:hover .dropbtn {
     background-color:rgb(13, 32, 56);
 }
 
@@ -171,12 +166,41 @@ a:hover, .dropdown:hover .dropbtn {
 /* Chapters.css */
 
 /* make buttons stylized; but currently is not working */
-button {
-    color: black;
+.chapter-content {
+  background-color: rgb(182, 189, 189);
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 20px;
 }
 
-button:hover {
-    background-color:rgb(127, 131, 131);
+.chapter-content p {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  background-color: rgb(182, 189, 189);
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: rgb(128, 124, 124);
+}
+
+.chapter-content ul{
+  margin-top: 10px;
+  margin-left: 2em;
+  margin-bottom: 15px;
+}
+
+.chapter-content h2 {
+  padding-bottom: 10px;
 }
 
 .sidebar {
@@ -190,5 +214,3 @@ button:hover {
     color: black;
     font-size: 20px;
 }
-
-

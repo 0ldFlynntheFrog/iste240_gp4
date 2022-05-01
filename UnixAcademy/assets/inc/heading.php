@@ -18,11 +18,11 @@
       <div class = "dropdown">
         <button class="dropbtn">Chapters</button>
         <div class="dropdown-content">
-          <a href="chapters.php">What is Unix?</a>
-          <a href="">The CLI/Terminal</a>
+          <a href="chapter0.php">What is Unix?</a>
+          <a href="">Chapter 1</a>
+          <a href="">Chapter 2</a>
           <a href="">Chapter 3</a>
           <a href="">Chapter 4</a>
-          <a href="">Chapter 5</a>
         </div>
       </div>
       <div class = "dropdown">
