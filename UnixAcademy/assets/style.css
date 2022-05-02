@@ -206,14 +206,32 @@ nav a:hover, .dropdown:hover, .dropbtn {
 
 /* Quiz 1 css below */
 
-.quizs {
+.quizzes {
     background-color: rgb(182, 189, 189);
     margin-left: 300px;
     margin-right: 300px;
     padding: 20px;
 }
 
-.quizs h1, .quizs h2 {
+.quizzes h1, .quizzes h2 {
     text-align: center;
     color: black;
+}
+
+.quizzes h2 {
+    margin-bottom: 10px;
+}
+
+.quizzes fieldset{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+  
+.quizzes input{
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(199, 49, 49);
 }
