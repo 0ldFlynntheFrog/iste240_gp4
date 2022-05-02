@@ -20,7 +20,7 @@
             <li>iOS</li>
         </ul>
     </p>
-    <h2>Who Created Unix?</h2>
+    <h3>Who Created Unix?</h3>
     <p>
         In 1969, Unix was developed at AT&T Bell Labs by Ken Thompson, Dennis Ritchie, Douglas Mcilroy, 
         Joseph Ossanna. Originally collaborating with researchers from MIT and General Electrics on an
@@ -31,7 +31,7 @@
         As the popularity of Unix increased, companies began emulating Unix and making their own Unix-like 
         operating systems. Most likely, the operating system you're using now is based on Linux.
     </p>
-    <h2>The Command Line Interface/Terminal</h2>
+    <h3>The Command Line Interface/Terminal</h3>
     <p>
         The main importance of UNIX is the use of UNIX commands that we can use to navigate our way around our computer.
     </p>

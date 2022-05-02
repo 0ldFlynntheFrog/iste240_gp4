@@ -179,6 +179,10 @@ nav a:hover, .dropdown:hover .dropbtn {
   margin-bottom: 20px;
 }
 
+.chapter-content .special-info {
+    font-size: 15px;
+}
+
 .sidebar a {
   background-color: rgb(182, 189, 189);
   color: black;
@@ -199,7 +203,7 @@ nav a:hover, .dropdown:hover .dropbtn {
   margin-bottom: 15px;
 }
 
-.chapter-content h2 {
+.chapter-content h2, .chapter-content h3 {
   padding-bottom: 10px;
 }
 
