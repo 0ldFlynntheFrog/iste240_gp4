@@ -154,6 +154,11 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .learn {
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
     background-color: rgb(199, 49, 49);
 }
 
