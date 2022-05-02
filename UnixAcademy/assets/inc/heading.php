@@ -5,8 +5,11 @@
 	<meta charset="utf-8" />
 	<title>Unix Academy <?php echo $title; ?> </title>
 	<link href = "assets/style.css" rel = 'stylesheet' >
+  <?php
+      echo "\n<script src='unixacademy.js'></script>";
+  ?>
 </head>
-<body <?php if ($page == "Chapters") {echo "onload='UnixChapters();'";} ?> >
+<body>
 
 	<!-- Heading HTML below -->
 	<!-- Changed from div heading to just header -->

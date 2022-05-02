@@ -9,7 +9,7 @@
 <h1>Chapter 1 Quiz</h1>
 <h2>What is Unix?</h2>
 
-<form name="quiz" onsubmit="validateQuiz();" method="post" action="quiz1.php">
+<form name="quiz" onsubmit="return validateQuiz();" method="post" action="quiz1.php">
   <fieldset>
             Question 1: Which command is used to <b>move a directory</b>?<br>
             <input type="radio" id="q1a1" name="question1" value="mvdir">
@@ -49,6 +49,9 @@
   <p id="error"></p>
   <input type="submit" class="button" name="submit" value="Submit" />
 </form>
+
+
+
 </div>
 
 

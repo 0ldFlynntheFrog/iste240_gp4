@@ -5,6 +5,7 @@ function validateQuiz() {
     
     if(questionOneAnswer == "" || questionTwoAnswer == "" || questionThreeAnswer == ""){
       document.getElementById("error").innerHTML = "Please answer all questions before submitting.";
+      return false;
     }
-    console.log("Hit");
+    return true;
 }
