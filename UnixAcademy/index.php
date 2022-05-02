@@ -1,4 +1,5 @@
 <?php
+ $title = '- Homepage';
 $page = "home";
 include("assets/inc/heading.php");
 ?>
@@ -13,7 +14,7 @@ include("assets/inc/heading.php");
 	</p>
 
 
-	<a class = "learn" href = "" >Learn More</a>
+	<a class = "learn" href = "https://en.wikipedia.org/wiki/Unix" >Learn More</a>
 
 	</div>
 

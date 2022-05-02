@@ -1,4 +1,5 @@
 <?php
+    $title = '- Chapter 1';
     $page = "Chapter 0";
     include("assets/inc/heading.php");
     include("assets/inc/sidebar.php");
