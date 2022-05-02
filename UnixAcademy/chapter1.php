@@ -60,3 +60,5 @@
     </p>
     <a href="quiz1.php">Ready for the Quiz?</a>
 </main>
+</body>
+</html>

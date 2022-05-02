@@ -37,12 +37,31 @@ h1 {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 25px;
+    padding: 15px;
     font-size: 20px;
     line-height: 70px;
+    position: relative;
 }
 
-nav a:hover, .dropdown:hover .dropbtn {
+nav a:after, .dropdown .dropbtn:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(199, 49, 49);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+nav a:hover:after, .dropdown .dropbtn:hover:after  {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav a:hover, .dropdown:hover, .dropbtn {
     background-color:rgb(13, 32, 56);
 }
 
@@ -50,11 +69,12 @@ nav a:hover, .dropdown:hover .dropbtn {
     border: none;
     outline: none;
     color: white;
-    padding: 25px;
+    padding: 15px;
     background-color: inherit;
     font-family: inherit;
     font-size: 20px;
     margin: 0;
+    position: relative;
 }
 
 .dropdown-content {
@@ -79,46 +99,6 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
-
-/* End of css styling from heading.css */
-
-
-/* Start of css styling from index.css */
-
-.content {
-    margin-right: 100px;
-    margin-left: 100px;
-    background-color: rgb(27, 55, 92);
-    padding: 20px;
-    margin-bottom: 4em;
-}
-
-.container {
-    text-align: center;
-}
-
-.box {
-    background-color:rgb(27, 55, 92);
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-}
-
-.info {
-    color:  white;  
-    font-size: 30px;
-    margin-right: 50%;
-    margin-bottom: 1em;
-}
-
-.learn {
-    background-color: rgb(199, 49, 49);
-}
-
-.learn:hover {
-    background-color: rgb(158, 37, 37);
 }
 
 /* End of css styling from heading.css */
