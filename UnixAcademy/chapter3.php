@@ -25,9 +25,9 @@
     <h2>Commands</h2>
 
     <ul>
-        <li>ls -l Shows who is currently has ownership</li>
-        <li>chmod Allows you to chnage and alter permissions</li>
-        <li>-l Will show the type, owner, time of changes, and also the size of the file</li>
+        <li>ls -l, Shows who is currently has ownership</li>
+        <li>chmod, Allows you to chnage and alter permissions</li>
+        <li>-l, Will show the type, owner, time of changes, and also the size of the file</li>
     </ul>
 
 
