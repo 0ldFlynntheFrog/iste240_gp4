@@ -211,7 +211,7 @@ nav a:hover, .dropdown:hover, .dropbtn {
     font-size: 20px;
 }
 
-/* Quiz 1 css below */
+/* Quiz css below */
 
 .quizzes {
     background-color: rgb(182, 189, 189);
@@ -242,4 +242,9 @@ nav a:hover, .dropdown:hover, .dropbtn {
     color: white;
     background-color: rgb(199, 49, 49);
     cursor: pointer;
+}
+
+#error {
+    font-weight: bold;
+    color: red;
 }

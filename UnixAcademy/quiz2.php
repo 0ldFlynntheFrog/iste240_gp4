@@ -8,7 +8,7 @@
 
 <h1>Chapter 2 Quiz</h1>
 <h2>Navigating through the File System</h2>
-<form name="quiz" onsubmit="return validateQuiz();" method="post" action="quiz1.php">
+<form name="quiz" onsubmit="return validateQuiz();" method="post" action="quiz2.php">
   <fieldset>
             Question 1: Which command is used to <b>move a directory</b>?<br>
             <input type="radio" id="q1a1" name="question1" value="mvdir">

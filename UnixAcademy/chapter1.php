@@ -30,7 +30,7 @@
     </p>
     <p>
         As the popularity of Unix increased, companies began emulating Unix and making their own Unix-like 
-        operating systems. Most likely, the operating system you're using now is based on Linux.
+        operating systems. Most likely, the operating system you're using now is based on Unix.
     </p>
     <h3>The Command Line Interface/Terminal</h3>
     <p>
@@ -40,7 +40,8 @@
         Command prompts are used by many operating systems that serve as the home for writing UNIX commands on our computer. 
         The command prompt is often called a “terminal” or “command line interface” (CLI).
     </p>
-    <p>In the following chapters, we will overview some basic commands available for use in the command prompt.</p>   
+    <p>In the following chapters, we will overview some basic commands available for use in the command prompt.</p>
+    <a href="quiz2.php">Ready for the Quiz?</a>   
 </main>
 
 
