@@ -19,6 +19,7 @@
         Reading permissions allow to see whats in a file, or even copy or print it aswell.
         Writing permissions can edit what is inside of a file and can also do things like delete the file.
         Execute permissions is being alowed to execute that file or get to it from a path.
+        When changing permissions you will want to use a command line that looks something like "chmod 444 file" or "chmod ug+r file".
     </p>
 
     <h2>Commands</h2>
