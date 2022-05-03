@@ -21,9 +21,8 @@
       <div class = "dropdown">
         <button class="dropbtn">Chapters</button>
         <div class="dropdown-content">
-          <a href="chapter0.php">What is Unix?</a>
           <a href="chapter1.php">Chapter 1</a>
-          <a href="">Chapter 2</a>
+          <a href="chapter2.php">Chapter 2</a>
           <a href="">Chapter 3</a>
         </div>
       </div>
