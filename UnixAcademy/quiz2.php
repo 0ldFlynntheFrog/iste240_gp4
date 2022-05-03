@@ -5,7 +5,6 @@
 ?>
 
 <div class = "quizzes">
-
 <h1>Chapter 2 Quiz</h1>
 <h2>Navigating through the File System</h2>
 <form name="quiz" onsubmit="return validateQuiz();" method="post" action="quiz2.php">
@@ -49,6 +48,5 @@
   <input type="submit" class="button" name="submit" value="Submit" />
 </form>
 </div>
-	
 </body>
 </html>
