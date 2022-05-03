@@ -49,9 +49,6 @@
   <p id="error"></p>
   <input type="submit" class="button" name="submit" value="Submit" />
 </form>
-
-
-
 </div>
 
 

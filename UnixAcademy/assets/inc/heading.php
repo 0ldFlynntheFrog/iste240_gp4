@@ -14,7 +14,7 @@
 	<!-- Heading HTML below -->
 	<!-- Changed from div heading to just header -->
 	<header>
-		<h1><span style = "color: rgb(199, 49, 49)">Unix</span>&nbsp;Academy</h1>
+		<h1><a href="index.php"><span style = "color: rgb(199, 49, 49)">Unix</span>&nbsp;Academy</a></h1>
 
 		<nav>
 			<a href = "index.php">Homepage</a>

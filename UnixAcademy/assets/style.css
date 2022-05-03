@@ -20,6 +20,12 @@ header{
     margin-bottom: 4em;
 } 
 
+/* Making Unix Academy logo style */
+header h1 a{
+    text-decoration: none;
+    color: white;
+}
+
 .unix {
     color: rgb(199, 49, 49);
 }
@@ -75,6 +81,7 @@ nav a:hover, .dropdown:hover, .dropbtn {
     font-size: 20px;
     margin: 0;
     position: relative;
+    cursor: pointer;
 }
 
 .dropdown-content {
@@ -234,4 +241,5 @@ nav a:hover, .dropdown:hover, .dropbtn {
     font-size: 16px;
     color: white;
     background-color: rgb(199, 49, 49);
+    cursor: pointer;
 }
