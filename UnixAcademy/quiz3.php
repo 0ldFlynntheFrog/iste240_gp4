@@ -46,4 +46,28 @@
 <p id="error"></p>
 <input type="submit" class="button" name="submit" value="Submit" />
 </form>
+<p>
+    <?php
+        if (!empty($_POST['submit'])) {
+            $guess1 = $_POST['question1'];
+            $guess2 = $_POST['question2'];
+            $guess3 = $_POST['question3'];
+
+            $correct1 = "chmod";
+            $correct2 = "Both a and b";
+            $correct3 = "False";
+            
+            echo "The correct answer for Question 1 was <b>" . $correct1 . "</b><br>";
+            echo "The correct answer for Question 2 was <b>" . $correct2 . "</b><br>";
+            echo "The correct answer for Question 3 was <b>" . $correct3 . "</b><br>";
+
+            if ($correct1 == $guess1 && $correct2 == $guess2 && $correct3 == $guess3) {
+                echo "Great Job! You got all questions correct!";
+            }
+            else{
+                echo "You didn't get all answers correct, check to see which answers you got wrong.";
+            }
+        }
+    ?>
+</p>
 </div>
