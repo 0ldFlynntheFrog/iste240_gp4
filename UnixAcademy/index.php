@@ -1,36 +1,34 @@
 <?php
- $title = '- Homepage';
-$page = "home";
-include("assets/inc/heading.php");
+ 	$title = '- Homepage';
+	$page = "home";
+	include("assets/inc/heading.php");
+
+	$servername = "localhost";
+    $username = "klo7619";
+    $password = "Wingback2!supralapsarian";
+    $database = "klo7619";
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $database);
+
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+    
+    $sql = "SELECT content FROM modular_unix where name ='".$page. "'";
+    $result = $conn->query($sql);
+
+    if($result->num_rows > 0){
+        while($row = $result->FETCH_ASSOC()){
+            echo $row['content'];
+        }
+    }
+    else{
+        echo '0 results';
+    }
+
+    $conn->close();
 ?>
-	<!-- Content HTML below -->
-
-	<div class = "content">
-	<h1>What is <span style = "color: rgb(199, 49, 49)">Unix</span>?</h1>
-	<br>
-	<p class = "info" >Unix is an Operating System that can be used to help the user interact wth the computer.
-		 Unix is also a multitasking program and was created in 1971. 
-		 Although the program is multitasking it wasnt meant for it to be like that at the beginning.
-	</p>
-
-
-	<a class = "learn" href = "https://en.wikipedia.org/wiki/Unix" >Learn More</a>
-
-	</div>
-
-	<!-- end of content -->
-
-	<!-- Container HTML below -->
-
-	<div class = "container">
-		<div class = "box"></div>
-		<div class = "box"></div>
-		<div class = "box"></div>
-	</div>
-
-	<!-- end of container -->
-
-	
-	
 </body>
 </html>
