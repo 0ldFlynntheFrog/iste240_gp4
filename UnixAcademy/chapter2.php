@@ -59,7 +59,7 @@
         The 'mkdir' command can be used to make a new directory with a specified name in the current directory. You may also create the 
         same directory from anywhere in the file system using an absolute path. 
     </p>
-    <a href="quiz1.php">Ready for the Quiz?</a>
+    <a href="quiz2.php">Ready for the Quiz?</a>
 </main>
 </body>
 </html>
