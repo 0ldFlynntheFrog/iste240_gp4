@@ -7,7 +7,7 @@
 <div class = "quizzes">
 
 <h1>Chapter 2 Quiz</h1>
-<h2>Navigating through System files</h2>
+<h2>Navigating through the File System</h2>
 <form name="quiz" onsubmit="return validateQuiz();" method="post" action="quiz1.php">
   <fieldset>
             Question 1: Which command is used to <b>move a directory</b>?<br>
