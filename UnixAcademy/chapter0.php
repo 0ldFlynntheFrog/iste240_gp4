@@ -8,7 +8,7 @@
     <!-- Main HTML Below -->
 
 <main class="chapter-content"> 
-    <h2>Who Created Unix?</h2>
+    <h2>What is Unix?</h2>
     <p>Unix is the meat of a computer's software, without it, our computer is worthless. 
     In short, Unix is a collection of operating systems that brings substance to our computer. 
     Different types of operating systems include:
