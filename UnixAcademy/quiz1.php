@@ -1,5 +1,5 @@
 <?php
- $title = '- Quiz 1';
+    $title = '- Quiz 1';
     $page = "Quiz 1";
     include("assets/inc/heading.php");
 ?>

@@ -1,5 +1,5 @@
 <?php
-    $title = '- Chapter 2';
+    $title = '- Quiz 2';
     $page = "Quiz 2";
     include("assets/inc/heading.php");
 ?>
