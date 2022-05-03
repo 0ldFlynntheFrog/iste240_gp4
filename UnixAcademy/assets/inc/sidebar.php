@@ -5,6 +5,5 @@
         <a href="chapter1.php">Navigating through the File System</a>
         <a href="">Chapter 3</a>
         <a href="">Chapter 4</a>
-        <a href="">Chapter 5</a>   
 </div>
 	<!-- end of Side Bar -->
