@@ -22,9 +22,9 @@
         <button class="dropbtn">Chapters</button>
         <div class="dropdown-content">
           <a href="chapter0.php">What is Unix?</a>
-          <a href="chapter1.php">Chapter 2</a>
+          <a href="chapter1.php">Chapter 1</a>
+          <a href="">Chapter 2</a>
           <a href="">Chapter 3</a>
-          <a href="">Chapter 4</a>
         </div>
       </div>
       <div class = "dropdown">
@@ -33,7 +33,6 @@
           <a href="quiz1.php">Quiz 1</a>
           <a href="quiz2.php">Quiz 2</a>
           <a href="">Quiz 3</a>
-          <a href="">Quiz 4</a>
         </div>
       </div>	
 		<nav>
