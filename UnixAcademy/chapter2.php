@@ -31,5 +31,3 @@
 
     $conn->close();
 ?>
-</body>
-</html>
